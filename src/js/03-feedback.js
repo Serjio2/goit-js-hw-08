@@ -40,8 +40,8 @@ function saveDataUser() {
 
     if (saveData) {
 
-    formEmailEl.value = saveData.email;
-    formTextareaEl.value = saveData.message
+            formEmailEl.value = saveData.email || "";
+            formTextareaEl.value = saveData.message || "";
     }
 };
 
